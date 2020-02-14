@@ -1,0 +1,15 @@
+.codeWindow {
+    min-width: 80vw;
+    min-height: 80vh;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 8px rgba($color: #00000071, $alpha: 0.2),
+        0 16px 24px 16px rgba($color: #00000071, $alpha: 0.2);
+}
+
+/* Mobile View */
+@media (max-width: 599px) {
+    .codeWindow {
+        min-width: calc(100vw - 16px);
+        min-height: calc(100vh - 32px);
+    }
+}

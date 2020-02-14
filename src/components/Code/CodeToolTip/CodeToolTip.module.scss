@@ -1,0 +1,17 @@
+.toolTip {
+    animation: entry 128ms ease-out !important;
+}
+
+@keyframes entry {
+    0% {
+        display: none;
+        opacity: 0;
+        transform: translateY(16px)
+    }
+
+    100% {
+        display: inherit;
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}
